@@ -13,6 +13,7 @@ environment:
 
   matrix:
       - PYTHON: "C:\\Python37-x64"
+        APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
         PYTHON_VERSION: "3.7.x"
         ARCH: "64"
         WINDOWS_SDK_VERSION: "v7.1"
@@ -20,6 +21,7 @@ environment:
         PY_TAG: "cp37"
         compiler: msvc-15
       - PYTHON: "C:\\Python36-x64"
+        APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2015
         PYTHON_VERSION: "3.6.x"
         ARCH: "64"
         WINDOWS_SDK_VERSION: "v7.1"
