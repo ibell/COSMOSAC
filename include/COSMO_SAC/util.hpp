@@ -8,7 +8,7 @@
 #include <functional>
 #include <stdexcept>
 #include <algorithm>
-#include <cctypes>
+#include <cctype>
 
 namespace COSMOSAC{
 
